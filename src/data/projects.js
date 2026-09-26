@@ -49,4 +49,20 @@ export const projects = [
     github: 'https://github.com/Rishabhostwal48/Cunstruction-Attendance',
     status: 'Backend Completed',
   },
+  {
+    id: 4,
+    title: 'Poold — AI-Assisted Interview Platform',
+    description:'AI-assisted interview platform combining candidate profiles, job requirements, real-time text/voice interviews, transcription, and structured interview analysis.',
+    stack:[ 'React', 'TypeScript', 'Node.js', 'PostgreSQL', 'Socket.IO', 'AWS Cognito', 'S3', 'Groq', 'ElevenLabs'],
+    features:[
+      'AI-Assisted Interviews',
+      'Real-Time Text/Voice Communication',
+      'Candidate Profile Management',
+      'Job Requirement Matching',
+      'Transcription and Analysis',
+      'Secure Authentication with AWS Cognito',
+    ],
+    github:'https://github.com/Rishabhostwal48/Poold-AI-Assisted-Interview-Platform',
+    status:'Completed',
+  },
 ]

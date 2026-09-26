@@ -12,14 +12,14 @@ const upcomingProjects = [
     description:
       'Building an AI-powered proposal generation platform with authentication, PDF generation, and project management features.',
   },
-  {
-    title: 'AI Resume Fixer',
-    status: 'Planned',
-    variant: 'default',
-    icon: Bot,
-    description:
-      'An AI tool that analyzes resumes, identifies weaknesses, and provides recruiter-focused improvements.',
-  },
+  // {
+  //   title: 'AI Resume Fixer',
+  //   status: 'Planned',
+  //   variant: 'default',
+  //   icon: Bot,
+  //   description:
+  //     'An AI tool that analyzes resumes, identifies weaknesses, and provides recruiter-focused improvements.',
+  // },
   {
     title: 'Construction Attendance Management System',
     status: 'Improving',
