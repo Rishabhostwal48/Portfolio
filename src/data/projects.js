@@ -65,4 +65,22 @@ export const projects = [
     github:'https://github.com/Rishabhostwal48/Poold-AI-Assisted-Interview-Platform',
     status:'Completed',
   },
+  {
+    id: 4,
+    title: 'Youtube Watch Party System',
+    description:'A Watch Party system that allows multiple users to watch YouTube videos together in real time. Users can synchronized—when one person pauses, seeks, or changes the video, everyone in the party sees the same action.',
+    stack:[ 'React', 'TypeScript','Vite', 'Node.js','Express.js','Socket.IO','Tailwind CSS','YouTube IFrame API'],
+    features:[
+      'Create watch rooms & Join existing rooms',
+      'Real-time synchronized playback',
+      'Real-time synchronized playback',
+      'Seek synchronization',
+      ' Role Management',
+
+    ],
+    github:'https://github.com/Rishabhostwal48/Poold-AI-Assisted-Interview-Platform',
+    liveDemo:'https://youtube-watch-party-system-omega.vercel.app/',
+    status:'Completed'
+  },
 ]
+

@@ -1,4 +1,4 @@
-import { CircleDot } from 'lucide-react'
+import { CircleDot, ExternalLink } from 'lucide-react'
 import { GithubIcon } from '../ui/Icons'
 import { projects } from '../../data/projects'
 import Container from '../ui/Container'
@@ -89,6 +89,17 @@ export default function Projects() {
                   <GithubIcon className="h-4 w-4" />
                   Source Code
                 </a>
+                {project.liveDemo && (
+                  <a
+                    href={project.liveDemo}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 rounded-lg text-sm font-semibold text-accent transition-colors hover:text-accent/80"
+                  >
+                    <ExternalLink className="h-4 w-4" />
+                    Live Demo
+                  </a>
+                )}
               </div>
             </Card>
           ))}
